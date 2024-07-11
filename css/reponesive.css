@@ -1,0 +1,53 @@
+/* mobile and table */
+@media (max-width: 1023px) {
+}
+
+/* table */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .header {
+    height: 80px;
+  }
+  .header__navbar {
+    display: none;
+  }
+  .nav__2 {
+    transform: translateY(73%);
+  }
+}
+
+/* mobile */
+@media (max-width: 739px) {
+  .header {
+    height: 80px;
+  }
+  .header__navbar {
+    display: none;
+  }
+  .nav__2 {
+    transform: translateY(73%);
+  }
+  .logo {
+    font-size: 20px;
+  }
+  .home-filter {
+    display: none;
+    height: 0;
+  }
+}
+
+.product__title {
+  margin: 4px;
+  padding: 0 10px;
+}
+.product__price {
+  margin: 4px;
+  padding: 0 10px;
+}
+.product__rating {
+  margin: 4px;
+  padding: 0 10px;
+}
+.product__heart {
+  margin: 4px;
+  padding: 0 10px;
+}

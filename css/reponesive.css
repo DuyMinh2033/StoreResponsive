@@ -34,20 +34,3 @@
     height: 0;
   }
 }
-
-.product__title {
-  margin: 4px;
-  padding: 0 10px;
-}
-.product__price {
-  margin: 4px;
-  padding: 0 10px;
-}
-.product__rating {
-  margin: 4px;
-  padding: 0 10px;
-}
-.product__heart {
-  margin: 4px;
-  padding: 0 10px;
-}

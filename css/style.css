@@ -237,7 +237,9 @@ html {
   text-overflow: ellipsis;
   font-weight: 500;
 }
-
+.home-product {
+  margin-bottom: 50px;
+}
 .product__price {
   display: flex;
   align-items: baseline;
@@ -320,4 +322,43 @@ html {
   content: "";
   border-top: 5px solid #bcb3b3;
   border-left: 5px solid transparent;
+}
+
+/* footer */
+.footer {
+  border-top: 4px solid var(--primary);
+  background-color: #f5f5f5;
+  min-height: 250px;
+}
+.content__footer {
+  background-color: #ffffff;
+}
+
+.item__footer {
+  margin-left: 20px;
+}
+.list__footer {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.child__footer {
+  display: block;
+  padding: 10px 0;
+  color: #666;
+  cursor: pointer;
+}
+
+.child__footer :hover {
+  color: rgb(89, 24, 24);
+}
+
+.title__footer {
+  margin-bottom: 2px;
+}
+
+.authur {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
